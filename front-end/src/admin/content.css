@@ -1,0 +1,37 @@
+.nav{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+.content{
+    transform: translateX(15%);
+}
+
+.Admin{
+  font-weight: bold;
+  font-size: 2rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+.image{
+  background-image: url('logo1.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 20rem;
+  height: 8rem;
+  border-radius: 5px;
+}
+.w3-button{
+  color: black;
+  font-weight: bold;
+}
+
+@media (min-width: 150px) and (max-width: 994px){
+  .w3-teal{
+    background-color: black !important;
+  }
+  .content{
+    transform: translateX(0);
+  }
+}

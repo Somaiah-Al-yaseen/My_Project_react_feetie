@@ -1,0 +1,9 @@
+.add_category{
+    transform: translateX(240%);
+}
+.admins{
+    transform: translateX(30%);
+}
+.admin_select{
+    display: block;
+}

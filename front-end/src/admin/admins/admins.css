@@ -1,0 +1,18 @@
+.admins{
+    display: none;
+}
+.show{
+    display: block;
+}
+input{
+    display: block;
+}
+.edit{
+    transform: translateX(30%);
+}
+.add{
+    transform: translateX(280%);
+}
+.table{
+    width: 90% !important;
+}

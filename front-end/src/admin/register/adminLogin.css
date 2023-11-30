@@ -1,0 +1,39 @@
+.admin_container{
+    overflow-y: hidden;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: fit-content;
+    transform: translateY(15%);
+    margin: 0 auto;
+    box-shadow: 10px 10px 8px #888888 , -10px -10px 8px #888888;
+}
+.image_container{
+    display: flex;
+    justify-content: center;
+}
+.image{
+    background-image: url(../logo1.png);
+    background-size: 100% 100%;
+    width: 30rem;
+    height: 20rem;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+.form input{
+    display: block;
+    width: 20rem;
+    padding: 0.5rem;
+}
+.button{
+    display: block;
+    transform: translateX(75px);
+}
+label{
+    color: black;
+}
+@media(min-width:280px) and (max-width:900px){
+
+
+}
